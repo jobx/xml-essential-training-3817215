@@ -8,3 +8,41 @@ BusinessCard {
 	margin: 5px;
 	text-align: left;
 }
+
+Name {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #0D3427;
+	margin-bottom: 0.5em;
+	display: block;
+}
+
+phone {
+	font-size: 0.95em;
+	color: #333333;
+	margin: 0.2em 0;
+	display: block;
+}
+
+email {
+	font-size: 0.95em;
+	color: #2A2A72;
+	text-decoration: underline;
+	display: block;
+}
+
+email::before {
+	content: "Email: ";
+	font-weight: bold;
+	color: #0D3427;
+}
+phone::before {
+	content: attr(type) ": ";
+	font-weight: bold;
+	color: #0D3427;
+}
+phone[primary]::after {
+	content: " (" attr(primary) ")";
+	font-weight: bold;
+	color: #0D3427;
+}
