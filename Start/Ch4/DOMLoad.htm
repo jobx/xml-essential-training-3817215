@@ -4,7 +4,10 @@
         <title>Load External XML</title>
         <script type="text/javascript">
             async function loadXMLDoc(docURL) {
-
+                var doc = await fetch(docURL);
+                var text = await doc.text();
+                var xml = new DOMParser().parseFromString(text, "text/xml");
+                return xml;
             }
 
             function displayBusinessCardData() {

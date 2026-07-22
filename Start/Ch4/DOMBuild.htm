@@ -11,11 +11,40 @@
             }
 
             function createNameSection(currentCard) {
+                var nameDiv = document.createElement("div");
+                nameDiv.setAttribute("class", "name");
+                var name = document.createTextNode(
+                    currentCard.getElementsByTagName("Name")[0].firstChild.data
+                );
+                nameDiv.appendChild(name);
+                return nameDiv;
 
             }
 
             function createEmailSection(currentCard) {
+                var emailDiv = document.createElement("div");
+                emailDiv.setAttribute("class", "email");
+                var email = document.createTextNode(
+                    currentCard.getElementsByTagName("email")[0].firstChild.data
+                );
+                emailDiv.appendChild(email);
+                return emailDiv;
+            }
 
+            function createPhoneSection(currentCard) {
+                var phoneDiv = document.createElement("div");
+
+                var phones = currentCard.getElementsByTagName("phone");
+                for (var i = 0; i < phones.length; i++) {
+                    var div = document.createElement("div");
+                    div.setAttribute("class", phones[i].getAttribute("type"));
+                    var phone = document.createTextNode(
+                        phones[i].firstChild.data
+                    );
+                    div.appendChild(phone);
+                    phoneDiv.appendChild(div);
+                }
+                return phoneDiv;
             }
 
             function createCardElement() {
@@ -28,10 +57,15 @@
                     newCard.setAttribute("class", "BusinessCard");
 
                     // now create a <div> for the name
-
+                    var nameDiv = createNameSection(bizCard);
+                    newCard.appendChild(nameDiv);
                     // create a <div> for the email
-
-                    // now add the new <div> containing the card info to the web page
+                    var emailDiv = createEmailSection(bizCard);
+                    newCard.appendChild(emailDiv);
+                    // create a <div> for the phone numbers
+                    var phoneDiv = createPhoneSection(bizCard);
+                    newCard.appendChild(phoneDiv);
+                    // now add the new <div> containing the card info to the web page                    
                     document
                         .getElementById("cardContainer")
                         .appendChild(newCard);

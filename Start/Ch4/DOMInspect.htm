@@ -4,16 +4,16 @@
         <title>Inspect Content with the DOM</title>
         <script type="text/javascript">
             function displayBusinessCardData() {
-                var xmldata1; 
-                var bizCard;
+                var xmldata1 = document.getElementById("xmldata1");
+                var bizCard = xmldata1.getElementsByTagName("BusinessCard")[0];
 
-                var name;
-                var email;
+                var name = bizCard.getElementsByTagName("Name")[0].firstChild.nodeValue;
+                var email = bizCard.getElementsByTagName("email")[0].firstChild.data;
 
                 alert("BusinessCard Data: \n\n" + name + "\n" + email);
             }
             
-            window.addEventListener("load", function () {
+            document.addEventListener("DOMContentLoaded", function () {
                 document
                     .querySelector("#showBCardData")
                     .addEventListener("click", displayBusinessCardData);

@@ -12,6 +12,49 @@
 
             function createCardElements() {
                 // YOUR CODE GOES HERE
+                loadXMLDoc("challenge.xml").then(xmlData => {
+                    let cards = xmlData.getElementsByTagName("BusinessCard");
+                    let container = document.getElementById("cardContainer");
+                    for (let i = 0; i < cards.length; i++) {
+                        let cardElement = createCardElement(cards[i]);
+                        container.appendChild(cardElement);
+                    }
+                });
+            }
+
+            function createCardElement(card) {
+                let cardDiv = document.createElement("div");
+                cardDiv.setAttribute("class", "BusinessCard");
+
+                let name = card.getElementsByTagName("Name")[0].firstChild.data;
+                let email = card.getElementsByTagName("email")[0].firstChild.data;
+
+                let nameElem = document.createElement("div");
+                nameElem.textContent = name;
+
+                let emailElem = document.createElement("div");
+                emailElem.textContent = email;
+
+                
+                let phone = card.getElementsByTagName("phone");  
+                let phoneElem = document.createElement("div");
+                for (let i = 0; i < phone.length; i++) {
+                    let phoneType = phone[i].getAttribute("type");
+                    let phoneNumber = phone[i].firstChild.data;
+
+                    let phoneDiv = document.createElement("div");
+                    phoneDiv.setAttribute("class", phoneType);
+                    phoneDiv.textContent = phoneNumber;
+
+                    phoneElem.appendChild(phoneDiv);
+                }
+                
+
+                cardDiv.appendChild(nameElem);
+                cardDiv.appendChild(emailElem);
+                cardDiv.appendChild(phoneElem);
+
+                return cardDiv;
             }
 
             window.addEventListener("load", function () {
