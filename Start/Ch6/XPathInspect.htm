@@ -17,6 +17,11 @@
                 var emailexpr = "/BusinessCard/email";
 
                 // ADD CODE HERE
+                var result = BusinessCard.evaluate(nameexpr, BusinessCard, null, XPathResult.ANY_TYPE);
+                var name = "Name: " + result.iterateNext().textContent;
+                
+                var result = BusinessCard.evaluate(emailexpr, BusinessCard, null, XPathResult.ANY_TYPE);
+                var email = "Email: " + result.iterateNext().textContent;
 
                 alert("BusinessCard Data: \n\n" + name + "\n" + email);
             }
