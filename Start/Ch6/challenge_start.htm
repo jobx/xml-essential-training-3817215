@@ -54,15 +54,44 @@
                 return emailSect;
             }
 
-            function createBizCards(xmlData) {
+            function createBizCards(xmlData, buttonId) {
                 document.getElementById("cardContainer").innerHTML="";
                 
                 // Your Code goes here
+                // locate the cardContainer div and clear its contents
+                var cardContainer = document.getElementById("cardContainer");
+                cardContainer.innerHTML = "";
+                // determine the XPath expression based on the buttonId
+                var xpathExpression;
+                if (buttonId === "createCards1") {
+                    xpathExpression = "//BusinessCard[phone[@primary='primary']]";
+                } else if (buttonId === "createCards2") {
+                    xpathExpression = "//BusinessCard[email[contains(text(),'@example.org')]]";
+                }
+                // loop through the XML data and create the business card elements
+                var result = xmlData.evaluate(xpathExpression, xmlData, null, XPathResult.ANY_TYPE);
+                var node = result.iterateNext();
+                while (node) {
+                    var newCard = document.createElement("div");
+                    newCard.setAttribute("class", "BusinessCard");
+
+                    var nameSection = createNameSection(node);
+                    newCard.appendChild(nameSection);
+                    var phoneSection = createPhones(node);
+                    newCard.appendChild(phoneSection);
+                    var emailSection = createEmailSection(node);
+                    newCard.appendChild(emailSection);
+
+                    cardContainer.appendChild(newCard);
+                    node = result.iterateNext();
+                }
             }
 
-            function createCardElements() {
+            function createCardElements(buttonId) {
                 // Your Code goes here
-                loadXMLDoc("challenge.xml").then(xml => createBizCards(xml));
+                loadXMLDoc("challenge.xml")
+                    .then(xml => createBizCards(xml, buttonId))
+                    .catch(error => console.error("Error loading XML:", error));    
 
             }
 
@@ -70,12 +99,12 @@
                 document
                     .getElementById("createCards1")
                     .addEventListener("click", () => {
-                        createCardElements();
+                        createCardElements("createCards1");
                     });
                     document
                     .getElementById("createCards2")
                     .addEventListener("click", () => {
-                        createCardElements();
+                        createCardElements("createCards2");
                     });
             });
         </script>
