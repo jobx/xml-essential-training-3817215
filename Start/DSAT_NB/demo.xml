@@ -1,0 +1,2165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NodeBreakerData ndbkv="16">
+
+   <Substation>
+      <SubstationName>Anvers</SubstationName>
+      <Number>1</Number>
+      <Type>2</Type>
+      <KV>220.00</KV>
+   </Substation>
+   <Substation>
+      <SubstationName>Brussels</SubstationName>
+      <Number>2</Number>
+      <Type>7</Type>
+      <KV>400.00</KV>
+   </Substation>
+   <Substation>
+      <SubstationName>Amsterdam</SubstationName>
+      <Number>3</Number>
+      <Type>4</Type>
+      <KV>400.00</KV>
+   </Substation>
+   <Substation>
+      <SubstationName>XL</SubstationName>
+      <Number>4</Number>
+      <Type>1</Type>
+      <KV>110.00</KV>
+   </Substation>
+
+   <BusBarSection>
+      <Name>Brussels BB1</Name>
+      <SubstationName>Brussels</SubstationName>
+      <ID>1</ID>
+      <IncludeNodeName>Brussels Node27</IncludeNodeName>
+      <IncludeNodeName>Brussels Node26</IncludeNodeName>
+      <IncludeNodeName>Brussels Node22</IncludeNodeName>
+      <IncludeNodeName>Brussels Node21</IncludeNodeName>
+      <IncludeNodeName>Brussels Node16</IncludeNodeName>
+      <IncludeNodeName>Brussels Node3</IncludeNodeName>
+   </BusBarSection>
+   <BusBarSection>
+      <Name>Anvers BB1</Name>
+      <SubstationName>Anvers</SubstationName>
+      <ID>1</ID>
+      <IncludeNodeName>Anvers Node11</IncludeNodeName>
+      <IncludeNodeName>Anvers Node9</IncludeNodeName>
+      <IncludeNodeName>Anvers Node7</IncludeNodeName>
+      <IncludeNodeName>Anvers Node6</IncludeNodeName>
+      <IncludeNodeName>Anvers Node5</IncludeNodeName>
+   </BusBarSection>
+   <BusBarSection>
+      <Name>Brussels BB2</Name>
+      <SubstationName>Brussels</SubstationName>
+      <ID>2</ID>
+      <IncludeNodeName>Brussels Node35</IncludeNodeName>
+      <IncludeNodeName>Brussels Node30</IncludeNodeName>
+      <IncludeNodeName>Brussels Node28</IncludeNodeName>
+      <IncludeNodeName>Brussels Node24</IncludeNodeName>
+      <IncludeNodeName>Brussels Node34</IncludeNodeName>
+      <IncludeNodeName>Brussels Node13</IncludeNodeName>
+   </BusBarSection>
+   <BusBarSection>
+      <Name>Brussels BB4</Name>
+      <SubstationName>Brussels</SubstationName>
+      <ID>3</ID>
+      <IncludeNodeName>Brussels Node18</IncludeNodeName>
+      <IncludeNodeName>Brussels Node10</IncludeNodeName>
+   </BusBarSection>
+   <BusBarSection>
+      <Name>Brussels BB3</Name>
+      <SubstationName>Brussels</SubstationName>
+      <ID>4</ID>
+      <IncludeNodeName>Brussels Node25</IncludeNodeName>
+      <IncludeNodeName>Brussels Node23</IncludeNodeName>
+      <IncludeNodeName>Brussels Node20</IncludeNodeName>
+      <IncludeNodeName>Brussels Node17</IncludeNodeName>
+      <IncludeNodeName>Brussels Node15</IncludeNodeName>
+   </BusBarSection>
+   <BusBarSection>
+      <Name>Brussels BB5</Name>
+      <SubstationName>Brussels</SubstationName>
+      <ID>5</ID>
+      <IncludeNodeName>Brussels Node29</IncludeNodeName>
+      <IncludeNodeName>Brussels Node1</IncludeNodeName>
+   </BusBarSection>
+   <BusBarSection>
+      <Name>Brussels BB6</Name>
+      <SubstationName>Brussels</SubstationName>
+      <ID>6</ID>
+      <IncludeNodeName>Brussels Node31</IncludeNodeName>
+      <IncludeNodeName>Brussels Node5</IncludeNodeName>
+   </BusBarSection>
+   <BusBarSection>
+      <Name>Anvers BB2</Name>
+      <SubstationName>Anvers</SubstationName>
+      <ID>2</ID>
+      <IncludeNodeName>Anvers Node8</IncludeNodeName>
+      <IncludeNodeName>Anvers Node2</IncludeNodeName>
+   </BusBarSection>
+   <BusBarSection>
+      <Name>Anvers BB3</Name>
+      <SubstationName>Anvers</SubstationName>
+      <ID>3</ID>
+      <IncludeNodeName>Anvers Node10</IncludeNodeName>
+      <IncludeNodeName>Anvers Node3</IncludeNodeName>
+   </BusBarSection>
+   <BusBarSection>
+      <Name>Amsterdam BB4</Name>
+      <SubstationName>Amsterdam</SubstationName>
+      <ID>1</ID>
+      <IncludeNodeName>Amsterdam Node8</IncludeNodeName>
+      <IncludeNodeName>Amsterdam Node18</IncludeNodeName>
+   </BusBarSection>
+   <BusBarSection>
+      <Name>Amsterdam BB1</Name>
+      <SubstationName>Amsterdam</SubstationName>
+      <ID>2</ID>
+      <IncludeNodeName>Amsterdam Node7</IncludeNodeName>
+      <IncludeNodeName>Amsterdam Node12</IncludeNodeName>
+      <IncludeNodeName>Amsterdam Node16</IncludeNodeName>
+      <IncludeNodeName>Amsterdam Node22</IncludeNodeName>
+   </BusBarSection>
+   <BusBarSection>
+      <Name>Amsterdam BB3</Name>
+      <SubstationName>Amsterdam</SubstationName>
+      <ID>3</ID>
+      <IncludeNodeName>Amsterdam Node19</IncludeNodeName>
+      <IncludeNodeName>Amsterdam Node23</IncludeNodeName>
+      <IncludeNodeName>Amsterdam Node25</IncludeNodeName>
+      <IncludeNodeName>Amsterdam Node21</IncludeNodeName>
+   </BusBarSection>
+   <BusBarSection>
+      <Name>Amsterdam BB2</Name>
+      <SubstationName>Amsterdam</SubstationName>
+      <ID>4</ID>
+      <IncludeNodeName>Amsterdam Node17</IncludeNodeName>
+      <IncludeNodeName>Amsterdam Node14</IncludeNodeName>
+      <IncludeNodeName>Amsterdam Node20</IncludeNodeName>
+   </BusBarSection>
+   <BusBarSection>
+      <Name>XL BB1</Name>
+      <SubstationName>XL</SubstationName>
+      <ID>9</ID>
+      <IncludeNodeName>XL Node13</IncludeNodeName>
+      <IncludeNodeName>XL Node11</IncludeNodeName>
+      <IncludeNodeName>XL Node9</IncludeNodeName>
+      <IncludeNodeName>XL Node8</IncludeNodeName>
+   </BusBarSection>
+   <BusBarSection>
+      <Name>XL BB2</Name>
+      <SubstationName>XL</SubstationName>
+      <ID>8</ID>
+      <IncludeNodeName>XL Node21</IncludeNodeName>
+      <IncludeNodeName>XL Node20</IncludeNodeName>
+      <IncludeNodeName>XL Node19</IncludeNodeName>
+   </BusBarSection>
+   <BusBarSection>
+      <Name>Amsterdam Busbar1</Name>
+      <SubstationName>Amsterdam</SubstationName>
+      <ID>10</ID>
+      <IncludeNodeName>Amsterdam Node75</IncludeNodeName>
+      <IncludeNodeName>Amsterdam Node71</IncludeNodeName>
+      <IncludeNodeName>Amsterdam Node69</IncludeNodeName>
+      <IncludeNodeName>Amsterdam Node64</IncludeNodeName>
+      <IncludeNodeName>Amsterdam Node60</IncludeNodeName>
+      <IncludeNodeName>Amsterdam Node56</IncludeNodeName>
+      <IncludeNodeName>Amsterdam Node52</IncludeNodeName>
+   </BusBarSection>
+
+   <Node>
+      <NodeName>Anvers Node1</NodeName>
+      <ID>1</ID>
+      <SubstationName>Anvers</SubstationName>
+      <Bus>Anvers 8 225.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node5</NodeName>
+      <ID>5</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 9 225.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Anvers Node3</NodeName>
+      <ID>3</ID>
+      <SubstationName>Anvers</SubstationName>
+      <Bus>Anvers 8 225.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node2</NodeName>
+      <ID>2</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 15 380.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node3</NodeName>
+      <ID>3</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 15 380.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node4</NodeName>
+      <ID>4</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 15 380.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node1</NodeName>
+      <ID>1</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 9 225.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Anvers Node2</NodeName>
+      <ID>2</ID>
+      <SubstationName>Anvers</SubstationName>
+      <Bus>Anvers 8 225.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Anvers Node4</NodeName>
+      <ID>4</ID>
+      <SubstationName>Anvers</SubstationName>
+      <Bus>Anvers 8 225.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node1</NodeName>
+      <ID>1</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node2</NodeName>
+      <ID>2</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node45</NodeName>
+      <ID>61</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 16 220.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node4</NodeName>
+      <ID>4</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 16 220.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node5</NodeName>
+      <ID>5</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>XL Node4</NodeName>
+      <ID>4</ID>
+      <SubstationName>XL</SubstationName>
+      <Bus>XL 17 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>XL Node5</NodeName>
+      <ID>5</ID>
+      <SubstationName>XL</SubstationName>
+      <Bus>XL 18 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node6</NodeName>
+      <ID>6</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 15 380.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node7</NodeName>
+      <ID>7</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 10 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node8</NodeName>
+      <ID>8</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 9 225.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node9</NodeName>
+      <ID>9</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 10 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node10</NodeName>
+      <ID>10</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 13 10.5</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node11</NodeName>
+      <ID>11</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 10 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node55</NodeName>
+      <ID>71</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node51</NodeName>
+      <ID>67</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 6 220.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node40</NodeName>
+      <ID>56</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 16 220.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node9</NodeName>
+      <ID>9</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 11 15.75</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node37</NodeName>
+      <ID>53</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 6 220.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node11</NodeName>
+      <ID>11</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 12 15.75</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node38</NodeName>
+      <ID>38</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 9 225.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>XL Node1</NodeName>
+      <ID>1</ID>
+      <SubstationName>XL</SubstationName>
+      <Bus>XL 17 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node12</NodeName>
+      <ID>12</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 15 380.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node13</NodeName>
+      <ID>13</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 9 225.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node14</NodeName>
+      <ID>14</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 14 21.0</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node15</NodeName>
+      <ID>15</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 10 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node34</NodeName>
+      <ID>34</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 9 225.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Anvers Node5</NodeName>
+      <ID>5</ID>
+      <SubstationName>Anvers</SubstationName>
+      <Bus>Anvers 8 225.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node57</NodeName>
+      <ID>74</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node63</NodeName>
+      <ID>77</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node44</NodeName>
+      <ID>60</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 6 220.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>XL Node16</NodeName>
+      <ID>16</ID>
+      <SubstationName>XL</SubstationName>
+      <Bus>XL 18 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>XL Node17</NodeName>
+      <ID>17</ID>
+      <SubstationName>XL</SubstationName>
+      <Bus>XL 18 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node67</NodeName>
+      <ID>83</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node16</NodeName>
+      <ID>16</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 15 380.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node17</NodeName>
+      <ID>17</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 10 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node18</NodeName>
+      <ID>18</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 13 10.5</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node26</NodeName>
+      <ID>41</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 11 15.75</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node32</NodeName>
+      <ID>48</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 12 15.75</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node29</NodeName>
+      <ID>45</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 11 15.75</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node19</NodeName>
+      <ID>19</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 14 21.0</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node20</NodeName>
+      <ID>20</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 10 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node21</NodeName>
+      <ID>21</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 15 380.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node22</NodeName>
+      <ID>22</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 15 380.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node23</NodeName>
+      <ID>23</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 10 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node24</NodeName>
+      <ID>24</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 9 225.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node25</NodeName>
+      <ID>25</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 10 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Anvers Node6</NodeName>
+      <ID>6</ID>
+      <SubstationName>Anvers</SubstationName>
+      <Bus>Anvers 8 225.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Anvers Node7</NodeName>
+      <ID>7</ID>
+      <SubstationName>Anvers</SubstationName>
+      <Bus>Anvers 8 225.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node26</NodeName>
+      <ID>26</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 15 380.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node27</NodeName>
+      <ID>27</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 15 380.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node28</NodeName>
+      <ID>28</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 9 225.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node29</NodeName>
+      <ID>29</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 9 225.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node30</NodeName>
+      <ID>30</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 9 225.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node31</NodeName>
+      <ID>31</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 9 225.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Anvers Node8</NodeName>
+      <ID>8</ID>
+      <SubstationName>Anvers</SubstationName>
+      <Bus>Anvers 8 225.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Anvers Node9</NodeName>
+      <ID>9</ID>
+      <SubstationName>Anvers</SubstationName>
+      <Bus>Anvers 8 225.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Anvers Node10</NodeName>
+      <ID>10</ID>
+      <SubstationName>Anvers</SubstationName>
+      <Bus>Anvers 8 225.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Anvers Node11</NodeName>
+      <ID>11</ID>
+      <SubstationName>Anvers</SubstationName>
+      <Bus>Anvers 8 225.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node15</NodeName>
+      <ID>15</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 16 220.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node22</NodeName>
+      <ID>22</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 6 220.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node68</NodeName>
+      <ID>84</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node70</NodeName>
+      <ID>86</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node73</NodeName>
+      <ID>89</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node72</NodeName>
+      <ID>88</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node76</NodeName>
+      <ID>92</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node6</NodeName>
+      <ID>6</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node47</NodeName>
+      <ID>63</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 16 220.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node48</NodeName>
+      <ID>64</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 16 220.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node3</NodeName>
+      <ID>3</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 16 220.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node46</NodeName>
+      <ID>62</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 16 220.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node38</NodeName>
+      <ID>54</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 6 220.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node10</NodeName>
+      <ID>10</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 6 220.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node36</NodeName>
+      <ID>52</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 12 15.75</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node35</NodeName>
+      <ID>51</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 12 15.75</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node18</NodeName>
+      <ID>18</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 16 220.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node34</NodeName>
+      <ID>50</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 11 15.75</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node33</NodeName>
+      <ID>49</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 11 15.75</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node20</NodeName>
+      <ID>20</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 12 15.75</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node21</NodeName>
+      <ID>21</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 11 15.75</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node13</NodeName>
+      <ID>13</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 11 15.75</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node24</NodeName>
+      <ID>24</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 11 15.75</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node35</NodeName>
+      <ID>35</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 9 225.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node36</NodeName>
+      <ID>36</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 9 225.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Brussels Node37</NodeName>
+      <ID>37</ID>
+      <SubstationName>Brussels</SubstationName>
+      <Bus>Brussels 9 225.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>XL Node2</NodeName>
+      <ID>2</ID>
+      <SubstationName>XL</SubstationName>
+      <Bus>XL 17 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>XL Node3</NodeName>
+      <ID>3</ID>
+      <SubstationName>XL</SubstationName>
+      <Bus>XL 17 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>XL Node10</NodeName>
+      <ID>10</ID>
+      <SubstationName>XL</SubstationName>
+      <Bus>XL 18 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>XL Node6</NodeName>
+      <ID>6</ID>
+      <SubstationName>XL</SubstationName>
+      <Bus>XL 18 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>XL Node12</NodeName>
+      <ID>12</ID>
+      <SubstationName>XL</SubstationName>
+      <Bus>XL 18 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>XL Node7</NodeName>
+      <ID>7</ID>
+      <SubstationName>XL</SubstationName>
+      <Bus>XL 18 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>XL Node8</NodeName>
+      <ID>8</ID>
+      <SubstationName>XL</SubstationName>
+      <Bus>XL 18 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>XL Node9</NodeName>
+      <ID>9</ID>
+      <SubstationName>XL</SubstationName>
+      <Bus>XL 18 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>XL Node11</NodeName>
+      <ID>11</ID>
+      <SubstationName>XL</SubstationName>
+      <Bus>XL 18 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>XL Node13</NodeName>
+      <ID>13</ID>
+      <SubstationName>XL</SubstationName>
+      <Bus>XL 18 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>XL Node14</NodeName>
+      <ID>14</ID>
+      <SubstationName>XL</SubstationName>
+      <Bus>XL 18 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>XL Node15</NodeName>
+      <ID>15</ID>
+      <SubstationName>XL</SubstationName>
+      <Bus>XL 18 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>XL Node18</NodeName>
+      <ID>18</ID>
+      <SubstationName>XL</SubstationName>
+      <Bus>XL 18 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>XL Node19</NodeName>
+      <ID>19</ID>
+      <SubstationName>XL</SubstationName>
+      <Bus>XL 18 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>XL Node20</NodeName>
+      <ID>20</ID>
+      <SubstationName>XL</SubstationName>
+      <Bus>XL 18 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>XL Node21</NodeName>
+      <ID>21</ID>
+      <SubstationName>XL</SubstationName>
+      <Bus>XL 18 110.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node25</NodeName>
+      <ID>40</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 11 15.75</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node23</NodeName>
+      <ID>23</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 11 15.75</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node27</NodeName>
+      <ID>43</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 11 15.75</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node28</NodeName>
+      <ID>44</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 11 15.75</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node14</NodeName>
+      <ID>14</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 12 15.75</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node30</NodeName>
+      <ID>46</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 12 15.75</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node31</NodeName>
+      <ID>47</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 12 15.75</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node19</NodeName>
+      <ID>19</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 11 15.75</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node17</NodeName>
+      <ID>17</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 12 15.75</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node16</NodeName>
+      <ID>16</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 6 220.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node39</NodeName>
+      <ID>55</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 16 220.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node8</NodeName>
+      <ID>8</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 16 220.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node41</NodeName>
+      <ID>57</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 16 220.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node12</NodeName>
+      <ID>12</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 6 220.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node42</NodeName>
+      <ID>58</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 6 220.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node43</NodeName>
+      <ID>59</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 6 220.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node49</NodeName>
+      <ID>65</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 6 220.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node7</NodeName>
+      <ID>7</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 6 220.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node50</NodeName>
+      <ID>66</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 6 220.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node52</NodeName>
+      <ID>68</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node53</NodeName>
+      <ID>69</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node54</NodeName>
+      <ID>70</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node56</NodeName>
+      <ID>72</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node59</NodeName>
+      <ID>73</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node58</NodeName>
+      <ID>75</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node61</NodeName>
+      <ID>76</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node62</NodeName>
+      <ID>78</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node60</NodeName>
+      <ID>79</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node66</NodeName>
+      <ID>82</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node65</NodeName>
+      <ID>81</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node64</NodeName>
+      <ID>80</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node69</NodeName>
+      <ID>85</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node71</NodeName>
+      <ID>87</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+   <Node>
+      <NodeName>Amsterdam Node75</NodeName>
+      <ID>91</ID>
+      <SubstationName>Amsterdam</SubstationName>
+      <Bus>Amsterdam 7 400.00</Bus>
+   </Node>
+
+   <BreakerSwitch>
+      <EquipmentName>Brussels BRK1</EquipmentName>
+      <SubstationName>Brussels</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Brussels Node20</FromNodeName>
+      <ToNodeName>Brussels Node7</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Brussels BRK8</EquipmentName>
+      <SubstationName>Brussels</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Brussels Node19</FromNodeName>
+      <ToNodeName>Brussels Node14</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Brussels BRK9</EquipmentName>
+      <SubstationName>Brussels</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Brussels Node12</FromNodeName>
+      <ToNodeName>Brussels Node21</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Brussels BRK2</EquipmentName>
+      <SubstationName>Brussels</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Brussels Node6</FromNodeName>
+      <ToNodeName>Brussels Node22</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>2</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Brussels BRK3</EquipmentName>
+      <SubstationName>Brussels</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Brussels Node23</FromNodeName>
+      <ToNodeName>Brussels Node9</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>2</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Brussels BRK4</EquipmentName>
+      <SubstationName>Brussels</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Brussels Node8</FromNodeName>
+      <ToNodeName>Brussels Node24</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Brussels BRK5</EquipmentName>
+      <SubstationName>Brussels</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Brussels Node11</FromNodeName>
+      <ToNodeName>Brussels Node25</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>3</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Anvers BRK3</EquipmentName>
+      <SubstationName>Anvers</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Anvers Node6</FromNodeName>
+      <ToNodeName>Anvers Node4</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Anvers BRK4</EquipmentName>
+      <SubstationName>Anvers</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Anvers Node7</FromNodeName>
+      <ToNodeName>Anvers Node1</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>2</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Brussels BRK10</EquipmentName>
+      <SubstationName>Brussels</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Brussels Node26</FromNodeName>
+      <ToNodeName>Brussels Node4</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>3</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Brussels BRK11</EquipmentName>
+      <SubstationName>Brussels</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Brussels Node27</FromNodeName>
+      <ToNodeName>Brussels Node2</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>4</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Brussels BRK6</EquipmentName>
+      <SubstationName>Brussels</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Brussels Node28</FromNodeName>
+      <ToNodeName>Brussels Node29</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>2</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Brussels BRK7</EquipmentName>
+      <SubstationName>Brussels</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Brussels Node30</FromNodeName>
+      <ToNodeName>Brussels Node31</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>3</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Anvers BRK1</EquipmentName>
+      <SubstationName>Anvers</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Anvers Node8</FromNodeName>
+      <ToNodeName>Anvers Node9</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>3</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Anvers BRK2</EquipmentName>
+      <SubstationName>Anvers</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Anvers Node10</FromNodeName>
+      <ToNodeName>Anvers Node11</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>4</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>BB_Conn1</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node15</FromNodeName>
+      <ToNodeName>Amsterdam Node22</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam BRK7</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node68</FromNodeName>
+      <ToNodeName>Amsterdam Node70</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam BRK8</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node73</FromNodeName>
+      <ToNodeName>Amsterdam Node72</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>2</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam BRK9</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node76</FromNodeName>
+      <ToNodeName>Amsterdam Node6</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>3</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam BRK5</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node47</FromNodeName>
+      <ToNodeName>Amsterdam Node48</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam BRK6</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node3</FromNodeName>
+      <ToNodeName>Amsterdam Node46</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>2</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam BRK3</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node38</FromNodeName>
+      <ToNodeName>Amsterdam Node10</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam BRK2</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node36</FromNodeName>
+      <ToNodeName>Amsterdam Node35</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam BRK4</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node15</FromNodeName>
+      <ToNodeName>Amsterdam Node18</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>3</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam BRK1</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node34</FromNodeName>
+      <ToNodeName>Amsterdam Node33</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>BB_Conn2</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Open</Status>
+      <NormalStatus>Open</NormalStatus>
+      <FromNodeName>Amsterdam Node20</FromNodeName>
+      <ToNodeName>Amsterdam Node21</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam BRK10</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node13</FromNodeName>
+      <ToNodeName>Amsterdam Node24</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Brussels SW1</EquipmentName>
+      <SubstationName>Brussels</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Brussels Node35</FromNodeName>
+      <ToNodeName>Brussels Node36</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Brussels BRK14</EquipmentName>
+      <SubstationName>Brussels</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Brussels Node36</FromNodeName>
+      <ToNodeName>Brussels Node37</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Brussels SW2</EquipmentName>
+      <SubstationName>Brussels</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Brussels Node37</FromNodeName>
+      <ToNodeName>Brussels Node38</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>XL SW10</EquipmentName>
+      <SubstationName>XL</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>XL Node1</FromNodeName>
+      <ToNodeName>XL Node2</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>XL BRK4</EquipmentName>
+      <SubstationName>XL</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>XL Node2</FromNodeName>
+      <ToNodeName>XL Node3</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>XL SW12</EquipmentName>
+      <SubstationName>XL</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>XL Node3</FromNodeName>
+      <ToNodeName>XL Node4</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>XL BRK1</EquipmentName>
+      <SubstationName>XL</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>XL Node10</FromNodeName>
+      <ToNodeName>XL Node6</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>XL BRK2</EquipmentName>
+      <SubstationName>XL</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>XL Node12</FromNodeName>
+      <ToNodeName>XL Node7</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>XL SW11</EquipmentName>
+      <SubstationName>XL</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>XL Node5</FromNodeName>
+      <ToNodeName>XL Node8</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>XL SW1</EquipmentName>
+      <SubstationName>XL</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>XL Node9</FromNodeName>
+      <ToNodeName>XL Node10</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>XL SW2</EquipmentName>
+      <SubstationName>XL</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>XL Node11</FromNodeName>
+      <ToNodeName>XL Node12</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>XL SW3</EquipmentName>
+      <SubstationName>XL</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>XL Node13</FromNodeName>
+      <ToNodeName>XL Node14</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>XL BRK3</EquipmentName>
+      <SubstationName>XL</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>XL Node14</FromNodeName>
+      <ToNodeName>XL Node15</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>XL SW5</EquipmentName>
+      <SubstationName>XL</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>XL Node6</FromNodeName>
+      <ToNodeName>XL Node16</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>XL SW6</EquipmentName>
+      <SubstationName>XL</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>XL Node7</FromNodeName>
+      <ToNodeName>XL Node17</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>XL SW7</EquipmentName>
+      <SubstationName>XL</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>XL Node15</FromNodeName>
+      <ToNodeName>XL Node18</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>XL SW4</EquipmentName>
+      <SubstationName>XL</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>XL Node16</FromNodeName>
+      <ToNodeName>XL Node19</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>XL SW8</EquipmentName>
+      <SubstationName>XL</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>XL Node17</FromNodeName>
+      <ToNodeName>XL Node20</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>XL SW9</EquipmentName>
+      <SubstationName>XL</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>XL Node18</FromNodeName>
+      <ToNodeName>XL Node21</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn2</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node25</FromNodeName>
+      <ToNodeName>Amsterdam Node13</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn4</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node24</FromNodeName>
+      <ToNodeName>Amsterdam Node26</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn1</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node23</FromNodeName>
+      <ToNodeName>Amsterdam Node27</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam BRK14</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node27</FromNodeName>
+      <ToNodeName>Amsterdam Node28</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn5</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node28</FromNodeName>
+      <ToNodeName>Amsterdam Node29</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn6</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node14</FromNodeName>
+      <ToNodeName>Amsterdam Node30</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam BRK12</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node30</FromNodeName>
+      <ToNodeName>Amsterdam Node31</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn8</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node31</FromNodeName>
+      <ToNodeName>Amsterdam Node32</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn9</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node33</FromNodeName>
+      <ToNodeName>Amsterdam Node19</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn10</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node9</FromNodeName>
+      <ToNodeName>Amsterdam Node34</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn11</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node35</FromNodeName>
+      <ToNodeName>Amsterdam Node17</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn12</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node11</FromNodeName>
+      <ToNodeName>Amsterdam Node36</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn13</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node10</FromNodeName>
+      <ToNodeName>Amsterdam Node37</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn14</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node16</FromNodeName>
+      <ToNodeName>Amsterdam Node38</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn15</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node40</FromNodeName>
+      <ToNodeName>Amsterdam Node39</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn16</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node8</FromNodeName>
+      <ToNodeName>Amsterdam Node41</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam BRK18</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node41</FromNodeName>
+      <ToNodeName>Amsterdam Node39</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn18</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node12</FromNodeName>
+      <ToNodeName>Amsterdam Node42</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam BRK15</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node42</FromNodeName>
+      <ToNodeName>Amsterdam Node43</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn20</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node43</FromNodeName>
+      <ToNodeName>Amsterdam Node44</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn21</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node45</FromNodeName>
+      <ToNodeName>Amsterdam Node3</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn22</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node46</FromNodeName>
+      <ToNodeName>Amsterdam Node15</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn23</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node4</FromNodeName>
+      <ToNodeName>Amsterdam Node47</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn24</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node48</FromNodeName>
+      <ToNodeName>Amsterdam Node15</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn25</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node49</FromNodeName>
+      <ToNodeName>Amsterdam Node7</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam BRK19</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node50</FromNodeName>
+      <ToNodeName>Amsterdam Node49</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn27</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node51</FromNodeName>
+      <ToNodeName>Amsterdam Node50</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn28</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node52</FromNodeName>
+      <ToNodeName>Amsterdam Node53</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam BRK11</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node53</FromNodeName>
+      <ToNodeName>Amsterdam Node54</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn30</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node54</FromNodeName>
+      <ToNodeName>Amsterdam Node55</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn31</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node56</FromNodeName>
+      <ToNodeName>Amsterdam Node59</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn32</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node57</FromNodeName>
+      <ToNodeName>Amsterdam Node58</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam BRK17</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node59</FromNodeName>
+      <ToNodeName>Amsterdam Node58</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam BRK16</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node61</FromNodeName>
+      <ToNodeName>Amsterdam Node62</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn34</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node63</FromNodeName>
+      <ToNodeName>Amsterdam Node62</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn36</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node60</FromNodeName>
+      <ToNodeName>Amsterdam Node61</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn35</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node66</FromNodeName>
+      <ToNodeName>Amsterdam Node67</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam BRK13</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node65</FromNodeName>
+      <ToNodeName>Amsterdam Node66</ToNodeName>
+      <Type>BRK</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn37</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node64</FromNodeName>
+      <ToNodeName>Amsterdam Node65</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn38</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node69</FromNodeName>
+      <ToNodeName>Amsterdam Node68</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn39</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node70</FromNodeName>
+      <ToNodeName>Amsterdam Node5</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn40</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node71</FromNodeName>
+      <ToNodeName>Amsterdam Node72</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn41</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node1</FromNodeName>
+      <ToNodeName>Amsterdam Node73</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn42</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node75</FromNodeName>
+      <ToNodeName>Amsterdam Node6</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+   <BreakerSwitch>
+      <EquipmentName>Amsterdam Conn43</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <Status>Close</Status>
+      <NormalStatus>Close</NormalStatus>
+      <FromNodeName>Amsterdam Node76</FromNodeName>
+      <ToNodeName>Amsterdam Node2</ToNodeName>
+      <Type>SWCH</Type>
+      <CKTID>1</CKTID>
+   </BreakerSwitch>
+
+   <Generator>
+      <EquipmentName>Brussels G1</EquipmentName>
+      <SubstationName>Brussels</SubstationName>
+      <NodeName>Brussels Node18</NodeName>
+   </Generator>
+   <Generator>
+      <EquipmentName>Amsterdam G3</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <NodeName>Amsterdam Node26</NodeName>
+   </Generator>
+   <Generator>
+      <EquipmentName>Amsterdam G1</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <NodeName>Amsterdam Node32</NodeName>
+   </Generator>
+   <Generator>
+      <EquipmentName>Amsterdam G2</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <NodeName>Amsterdam Node29</NodeName>
+   </Generator>
+   <Generator>
+      <EquipmentName>Brussels ACGEN</EquipmentName>
+      <SubstationName>Brussels</SubstationName>
+      <NodeName>Brussels Node19</NodeName>
+   </Generator>
+
+   <Load>
+      <EquipmentName>Brussels Load1</EquipmentName>
+      <SubstationName>Brussels</SubstationName>
+      <NodeName>Brussels Node15</NodeName>
+   </Load>
+   <Load>
+      <EquipmentName>Brussels Load2</EquipmentName>
+      <SubstationName>Brussels</SubstationName>
+      <NodeName>Brussels Node34</NodeName>
+   </Load>
+   <Load>
+      <EquipmentName>Anvers Load1</EquipmentName>
+      <SubstationName>Anvers</SubstationName>
+      <NodeName>Anvers Node5</NodeName>
+   </Load>
+   <Load>
+      <EquipmentName>Amsterdam Load1</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <NodeName>Amsterdam Node57</NodeName>
+   </Load>
+   <Load>
+      <EquipmentName>Amsterdam Load2</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <NodeName>Amsterdam Node63</NodeName>
+   </Load>
+   <Load>
+      <EquipmentName>Amsterdam Load3</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <NodeName>Amsterdam Node44</NodeName>
+   </Load>
+   <Load>
+      <EquipmentName>XL Load1</EquipmentName>
+      <SubstationName>XL</SubstationName>
+      <NodeName>XL Node16</NodeName>
+   </Load>
+   <Load>
+      <EquipmentName>XL Load2</EquipmentName>
+      <SubstationName>XL</SubstationName>
+      <NodeName>XL Node17</NodeName>
+   </Load>
+
+   <ShuntCompensator>
+      <EquipmentName>Amsterdam S1</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <NodeName>Amsterdam Node67</NodeName>
+      <Switchable>False</Switchable>
+      <NominalMVAR>0.00000</NominalMVAR>
+   </ShuntCompensator>
+   <ShuntCompensator>
+      <EquipmentName>Brussels S2</EquipmentName>
+      <SubstationName>Brussels</SubstationName>
+      <NodeName>Brussels Node16</NodeName>
+      <Switchable>False</Switchable>
+      <NominalMVAR>0.00000</NominalMVAR>
+   </ShuntCompensator>
+   <ShuntCompensator>
+      <EquipmentName>Brussels S1</EquipmentName>
+      <SubstationName>Brussels</SubstationName>
+      <NodeName>Brussels Node17</NodeName>
+      <Switchable>False</Switchable>
+      <NominalMVAR>0.00000</NominalMVAR>
+   </ShuntCompensator>
+
+   <ACLine>
+      <EquipmentName>IC-Anvers 2-8</EquipmentName>
+      <ToSubstationName>Anvers</ToSubstationName>
+      <ToNodeName>Anvers Node1</ToNodeName>
+   </ACLine>
+   <ACLine>
+      <EquipmentName>Brussels-Anvers 9-8 1</EquipmentName>
+      <FromSubstationName>Brussels</FromSubstationName>
+      <FromNodeName>Brussels Node5</FromNodeName>
+      <ToSubstationName>Anvers</ToSubstationName>
+      <ToNodeName>Anvers Node3</ToNodeName>
+   </ACLine>
+   <ACLine>
+      <EquipmentName>Brussels-IC 15-4</EquipmentName>
+      <FromSubstationName>Brussels</FromSubstationName>
+      <FromNodeName>Brussels Node2</FromNodeName>
+   </ACLine>
+   <ACLine>
+      <EquipmentName>Brussels-IC 15-1</EquipmentName>
+      <FromSubstationName>Brussels</FromSubstationName>
+      <FromNodeName>Brussels Node3</FromNodeName>
+   </ACLine>
+   <ACLine>
+      <EquipmentName>Brussels-IC 15-5</EquipmentName>
+      <FromSubstationName>Brussels</FromSubstationName>
+      <FromNodeName>Brussels Node4</FromNodeName>
+   </ACLine>
+   <ACLine>
+      <EquipmentName>Brussels-Anvers 9-8 2</EquipmentName>
+      <FromSubstationName>Brussels</FromSubstationName>
+      <FromNodeName>Brussels Node1</FromNodeName>
+      <ToSubstationName>Anvers</ToSubstationName>
+      <ToNodeName>Anvers Node2</ToNodeName>
+   </ACLine>
+   <ACLine>
+      <EquipmentName>IC-Anvers 3-8</EquipmentName>
+      <ToSubstationName>Anvers</ToSubstationName>
+      <ToNodeName>Anvers Node4</ToNodeName>
+   </ACLine>
+   <ACLine>
+      <EquipmentName>Amsterdam-IC 7-4</EquipmentName>
+      <FromSubstationName>Amsterdam</FromSubstationName>
+      <FromNodeName>Amsterdam Node1</FromNodeName>
+   </ACLine>
+   <ACLine>
+      <EquipmentName>Amsterdam-IC 7-1</EquipmentName>
+      <FromSubstationName>Amsterdam</FromSubstationName>
+      <FromNodeName>Amsterdam Node2</FromNodeName>
+   </ACLine>
+   <ACLine>
+      <EquipmentName>Amsterdam-IC 16-3</EquipmentName>
+      <FromSubstationName>Amsterdam</FromSubstationName>
+      <FromNodeName>Amsterdam Node45</FromNodeName>
+   </ACLine>
+   <ACLine>
+      <EquipmentName>Amsterdam-IC 16-2</EquipmentName>
+      <FromSubstationName>Amsterdam</FromSubstationName>
+      <FromNodeName>Amsterdam Node4</FromNodeName>
+   </ACLine>
+   <ACLine>
+      <EquipmentName>Amsterdam-IC 7-5</EquipmentName>
+      <FromSubstationName>Amsterdam</FromSubstationName>
+      <FromNodeName>Amsterdam Node5</FromNodeName>
+   </ACLine>
+   <ACLine>
+      <EquipmentName>XL-XL 17-18</EquipmentName>
+      <FromSubstationName>XL</FromSubstationName>
+      <FromNodeName>XL Node4</FromNodeName>
+      <ToSubstationName>XL</ToSubstationName>
+      <ToNodeName>XL Node5</ToNodeName>
+   </ACLine>
+
+
+   <TwoWindingTransformer>
+      <EquipmentName>Brussels 15-10 TR2</EquipmentName>
+      <SubstationName>Brussels</SubstationName>
+      <PrimaryNodeName>Brussels Node6</PrimaryNodeName>
+      <SecondarySubstationName>Brussels</SecondarySubstationName>
+      <SecondaryNodeName>Brussels Node7</SecondaryNodeName>
+   </TwoWindingTransformer>
+   <TwoWindingTransformer>
+      <EquipmentName>Brussels 9-10 TR2</EquipmentName>
+      <SubstationName>Brussels</SubstationName>
+      <PrimaryNodeName>Brussels Node8</PrimaryNodeName>
+      <SecondarySubstationName>Brussels</SecondarySubstationName>
+      <SecondaryNodeName>Brussels Node9</SecondaryNodeName>
+   </TwoWindingTransformer>
+   <TwoWindingTransformer>
+      <EquipmentName>Brussels 13-10 TR2</EquipmentName>
+      <SubstationName>Brussels</SubstationName>
+      <PrimaryNodeName>Brussels Node10</PrimaryNodeName>
+      <SecondarySubstationName>Brussels</SecondarySubstationName>
+      <SecondaryNodeName>Brussels Node11</SecondaryNodeName>
+   </TwoWindingTransformer>
+   <TwoWindingTransformer>
+      <EquipmentName>Amsterdam 7-6 TR2</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <PrimaryNodeName>Amsterdam Node55</PrimaryNodeName>
+      <SecondarySubstationName>Amsterdam</SecondarySubstationName>
+      <SecondaryNodeName>Amsterdam Node51</SecondaryNodeName>
+   </TwoWindingTransformer>
+   <TwoWindingTransformer>
+      <EquipmentName>Amsterdam 16-11 TR2</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <PrimaryNodeName>Amsterdam Node40</PrimaryNodeName>
+      <SecondarySubstationName>Amsterdam</SecondarySubstationName>
+      <SecondaryNodeName>Amsterdam Node9</SecondaryNodeName>
+   </TwoWindingTransformer>
+   <TwoWindingTransformer>
+      <EquipmentName>Amsterdam 6-12 TR2</EquipmentName>
+      <SubstationName>Amsterdam</SubstationName>
+      <PrimaryNodeName>Amsterdam Node37</PrimaryNodeName>
+      <SecondarySubstationName>Amsterdam</SecondarySubstationName>
+      <SecondaryNodeName>Amsterdam Node11</SecondaryNodeName>
+   </TwoWindingTransformer>
+   <TwoWindingTransformer>
+      <EquipmentName>XL 9-17</EquipmentName>
+      <SubstationName>Brussels</SubstationName>
+      <PrimaryNodeName>Brussels Node38</PrimaryNodeName>
+      <SecondarySubstationName>XL</SecondarySubstationName>
+      <SecondaryNodeName>XL Node1</SecondaryNodeName>
+   </TwoWindingTransformer>
+
+
+
+   <ThreeWindingTransformer>
+      <EquipmentName>Brussels 15-9-14 TR3</EquipmentName>
+      <SubstationName>Brussels</SubstationName>
+      <PrimaryNodeName>Brussels Node12</PrimaryNodeName>
+      <SecondarySubstationName>Brussels</SecondarySubstationName>
+      <SecondaryNodeName>Brussels Node13</SecondaryNodeName>
+      <TertiarySubstationName>Brussels</TertiarySubstationName>
+      <TertiaryNodeName>Brussels Node14</TertiaryNodeName>
+   </ThreeWindingTransformer>
+
+
+</NodeBreakerData>
